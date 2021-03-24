@@ -1,0 +1,192 @@
+*{
+    margin: 10px;
+    padding:10px;
+    box-sizing:border-box;
+  }
+  
+  .padre{
+    display: flex;
+    flex-flow:column nowrap
+  }
+  
+   
+  .header{
+    background: url(img/fons.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+  
+    .menu{
+      font-size: 17px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      padding: 20px 0;
+      display: flex;
+      font-family: 'Secular One', sans-serif;
+      list-style: none;
+     
+
+    }
+
+      .logo{
+      width: 110px ;
+    }
+
+      .nav{
+      display: flex;  
+      flex-flow:row nowrap;
+
+      
+    }
+
+      .social{ 
+      display: flex;
+      flex-flow:row nowrap;
+      
+      
+      
+      
+    
+      }
+    
+    a{
+      color: rgb(116, 109, 111);
+      text-decoration: none;
+      display: flex;
+      list-style: none;
+      
+    }
+        
+  
+    .texto-principal{
+        color:red;
+        display:flex;
+        padding:50px 0;
+        justify-content: center;
+    }  
+      h1{
+        background-color: rgb(200, 197, 197);
+        opacity: 0.4;
+       
+      }
+
+      li a:hover{
+        border-bottom: 2px solid rgb(42, 40, 42);
+      }
+
+      ul li a:hover{
+        border-bottom: 2px solid rgb(42, 40, 42);
+      }
+
+      ul li{
+        list-style: none;
+      }
+
+  
+
+  .section{
+    flex-direction: column;
+    
+  }
+
+
+      .articulos{
+        display: flex;
+        height: 30em;
+        flex-flow:wrap;
+       }
+
+
+      .article1{
+        background-image:url(img/tree.jpg);
+        background-size: cover;
+        flex: 47%; 
+      }
+
+      .article2{
+        background-image:url(img/paisaje.jpg);
+        background-size: cover;
+        flex:47%;
+      }
+
+      .article3{
+        background-image:url(img/japon.jpg);
+        background-size: cover;
+        flex:47%;
+      }
+
+      .article4{
+        background-image:url(img/osaka.jpg);
+        background-size: cover;
+        flex:47%;
+      }
+   
+  .footer{
+    background:#000;
+  }
+  
+    .pie{
+      background:#838383;
+    }
+
+
+
+    @media (max-width:800px) {
+      .section{
+        flex-direction: column;
+     }
+
+     .menu{
+       flex-direction:column;
+       height:auto;
+
+     }
+    
+    }
+
+    a{
+      color: rgb(116, 109, 111);
+      text-decoration: none;
+      flex-direction:column;
+    }
+
+    ul {
+      flex-direction:column;
+      }
+       
+    .section{
+      flex-direction: column;
+   }
+  
+  
+
+  
+   @media (max-width:400px) {
+
+    .menu{
+        flex-direction:column;
+    }
+
+    a{
+      color: rgb(116, 109, 111);
+      text-decoration: none;
+      flex-direction:column;
+    }
+
+    ul {
+      flex-direction:column;
+      }
+       
+    .section{
+      flex-direction: column;
+   }
+  
+  }
+
